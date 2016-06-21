@@ -1,0 +1,54 @@
+1	Shaun D Jackman, Rene Warren, Ewan Gibb, Ben Vandervalk, Hamid Mohamadi, Justin Chu, Anthony Raymond, Stephen Pleasance, Robin Coope, Mark R Wildung, Carol E Ritland, Jean Bousquet, Steven Jm Jones, Joerg Bohlmann and Inanc Birol	Organellar Genomes of White Spruce \(Picea glauca\): Assembly and Annotation
+2	Andreas Bremges, Jessica Jarett, Tanja Woyke and Alexander Sczyrba	Metagenomic proxy assemblies of single cell genomes
+3	Sara Ballouz and Jesse Gillis	AuPairWise: biologically focused RNA-seq quality control using co-expression
+4	Ben Vandervalk, Hamid Mohamadi, Justin Chu, Shaun D Jackman, S Austin Hammond, Sarah Yeo, Golnaz Jahesh, Lauren Coombe, Rene L Warren and Inanc Birol	Resource-efficient Assembly of Large Genomes with Bloom Filter ABySS
+5	Indrani Datta and Laila M Poisson	Co-Expression of Long non-coding RNAs with Epigenetically regulated genes in TCGA Glioma subtypes
+6	Kieran Campbell and Christopher Yau	Bayesian latent variable models for single-cell trajectory learning
+7	Hamid Mohamadi, Justin Chu, Ben Vandervalk and Inanc Birol	ntHash: recursive nucleotide hashing
+8	Martin S. Lindner, Benjamin Strauch, Jakob Schulze, Piotr W. Dabrowski, Andreas Nitsche and Bernhard Y. Renard	HiLive - Real-Time Mapping of Illumina Reads while Sequencing 
+9	Ka Ming Nip, Justin Chu and Inanc Birol	RNA­Bloom: ​ de novo​ RNA­seq assembly with Bloom filters
+10	Justin Chu, Hamid Mohamadi, Sarah Yeo, Ben Vandervalk, Golnaz Jahesh, Shaun Jackman, Chen Yang, Rene Warren and Inanc Birol	Low memory, fast, specific, sensitive, multi-reference sequence classification using Bloom filter maps
+11	Aaron Weimann, Andreas Bremges, Jeremy Frank, Phillip Pope and Alice McHardy	From genomes to phenotypes: Traitar, the microbial trait analyzer
+12	Chen Yang, Justin Chu, René Warren and Inanç Birol	NanoSim: nanopore sequence read simulator based on statistical characterization
+13	Louis Dijkstra, Johannes Köster, Tobias Marschall and Alexander Schoenhuth	Genotyping somatic insertions and deletions
+14	Noah Spies, Ziming Weng, Alex Bishara, Justin M Zook, Robert B West, Marc Salit and Arend Sidow	Evolution of Structural Variation in Cancer Revealed by Read Clouds
+15	Daniel Edsgärd, Björn Reinius and Rickard Sandberg	scphaser: haplotype inference using single cell RNA-seq data
+16	Rebecca Halperin, John Carpten, Jessica Aldrich, Winnie Liang, Jonathan Keats, Megan Russell, Daniel Enriquez, Ana Claasen, Irene Cherni, Seungchan Kim and David Craig	Evaluation of strategies for somatic mutation discovery in tumor specimens without matched germline: effect of tumor content, sequencing depth, and copy number alterations
+17	Hee-Woong Lim and Kyoung-Jae Won	Template-Based Decomposition of ChIP-exo Profile Reveals Alternative Binding Configuration Repertoire of Transcription Factors
+18	Chen Sun and Paul Medvedev	VarMatch: A fast, parallel, and memory-efficient method for the variant matching problem
+19	Sergey Aganezov and Max Alekseyev	CAMSA: a Tool for Comparative Analysis and Merging of Scaffold Assemblies
+21	Kyoungwoo Nam, Jang-Il Sohn, Hyosun Hong and Jin-Wu Nam	Hybrid genome assembly of Ogye \(Gallus gallus domesticus\) using short and long reads and annotations of noncoding genes.
+22	Christian Orellana, Jacob Bogerd, Nathaniel Moorman, Paul Armistead, Corbin Jones and Jan Prins	EDGAR: Full-length RNA transcript identification by hybrid sequencing and best edit-distance graph alignment of a single molecule read
+23	Onur Sakarya, Hyunsung John Kim, Roger Jian, Tom Chien, Payal Shah, Hui Xu, Chenlu Hou, Byoungsok Jung, Xiaoyu Chen, Han-Yu Chuang and Catalin Barbacioru	In Silico Simulation of Low Allele Fraction Gene Rearrangement Detection with Deep Targeted DNA Sequencing
+24	Daniel Cameron and Anthony Papenfuss	GRIDSS: sensitive and specific genomic rearrangement detection using positional de Bruijn graph assembly
+25	Kwangbom Choi, Narayanan Raghupathy, Steven Munger and Gary Churchill	Allele-specific expression from single-cell RNA-Seq data
+26	John Beaulaurier, Shijia Zhu, Gintaras Deikus, Ilaria Mogno, Austin Davis-Richardson, Ronald Canepa, Eric Triplett, Jeremiah Faith, Robert Sebra, Eric Schadt and Gang Fang	Long read- and DNA methylation-based binning of metagenomic contigs and single molecules
+27	Yaron Orenstein, David Pellow, Guillaume Marcais, Ron Shamir and Carl Kingsford	Compact universal k-mer hitting sets
+28	Xian Fan, Zechen Chong, Luay Nakhleh and Ken Chen	An assembly approach utilizing next and third generation sequencing data for powerful structural variant detection
+29	Manuel Tardaguila, Ana Conesa and Lorena De La Fuente	Curation, characterization and quantification of a PacBio transcriptome
+30	Stefan Canzar, Karlynn Neu, Patrick Wilson and Aly Khan	BASIC: BCR assembly from single cells
+31	Vladimir Kuznetsov, Piroon Jenjaroenpun and Thidathip Wongsurawat	R-loop biology: From a few gene cases to genome scale
+32	Pablo Cordero and Joshua Stuart	Tracing noisy biological progression and gene network rewiring between cell metastable states in static single-cell transcriptomes
+33	Eric Pauley, Raunaq Malhotra, Guillaume Rizk, Paul Medvedev, Rayan Chikhi and Raj Acharya	SKE: Ultra fast simultaneous K-mer counting for multiple values of k
+34	Aashish Adhikari, Divya Punwani, Jay Patel, Alice Chan, Haopeng Wang, Antonia Kwan, Theresa Kadlecek, Morton Cowan, Marianne Mollenauer, John Kuriyan, Shu Man Fu, Uma Sunderam, Prisni Rath, Sadhna Rana, Ajithavalli Chellappan, Kunal Kundu, Arend Mulder, Frans Claas, Joseph Church, Arthur Weiss, Richard Gatti, Jennifer Puck, Rajgopal Srinivasan and Steven Brenner	Individual genome interpretation in newborns with rare disorders
+35	Francisco De La Vega, Sean Irvine, David Ware, Kurt Gaastra, Yosr Bouhlai, Daniel Mendoza, Anna Vilborg, Yannick Pouliot, Federico Goodsaid, Austin So and Len Trigg	A Bayesian Network Algorithm for Somatic Mutation and Germline Variant Identification from Tumor Molecular Profiling of Cancer Patients by High-Throughput Sequencing
+36	Kjong-Van Lehmann	Accurate Modeling and Correction of GC Content and Gene Length Bias from RNA-seq Data
+37	Kjong-Van Lehmann	Genotyping of Inversions and Tandem Duplications
+38	Kjong-Van Lehmann	A Hybrid Genome Assembler for Second- and Third-Generation Sequencing
+39	Kjong-Van Lehmann	popSTR: population-scale detection of STR variants
+40	Kjong-Van Lehmann	MICADo - Looking for mutations in PacBio cancer data: an alignment-free method
+41	Kjong-Van Lehmann	Rail-RNA: Scalable analysis of RNA-seq splicing and coverage
+42	Kjong-Van Lehmann	iMapSplice: a lightweight and personalized RNA-seq alignment approach to improve transcriptome profiling
+43	Sunho Park, Jeon Lee, Yunku Yeu, Yunpeng Gao, Elizabeth Mcmillan, Zechen Chong, Ken Chen, Jae-Ho Cheong, John Minna, Michael White and Tae Hyun Hwang	CLIA-certified cancer gene panel-based machine learning method to predict sensitivity of anticancer drugs for precision oncology
+44	Kjong-Van Lehmann	MuClone: Detection and classification of somatic mutations through probabilistic integration of clonal population structure
+45	Kjong-Van Lehmann	Fast and Accurate Alignment of Single Molecule Maps
+47	Kjong-Van Lehmann	Consensus Representation Estimation of Lineage Expression \(CREoLE\) Algorithm for scRNA-seq
+48	Kjong-Van Lehmann	TwoPaCo: An efficient algorithm to build the compacted de Bruijn graph from many complete genomes
+49	Kjong-Van Lehmann	Accurate Modeling and Correction of GC Content and Gene Length Bias from RNA-seq Data
+50	Kjong-Van Lehmann	Genotyping of Inversions and Tandem Duplications
+51	Kjong-Van Lehmann	MICADo - Looking for mutations in PacBio cancer data: an alignment-free method
+52	Kjong-Van Lehmann	MapSplice: a lightweight and personalized RNA-seq alignment approach to improve transcriptome profiling
+54	Kjong-Van Lehmann	MuClone: Detection and classification of somatic mutations through probabilistic integration of clonal population structure
+55	Kjong-Van Lehmann	Fast and Accurate Alignment of Single Molecule Maps
+56	Kjong-Van Lehmann	Consensus Representation Estimation of Lineage Expression \(CREoLE\) Algorithm for scRNA-seq
+57	Kjong-Van Lehmann	A Hybrid Genome Assembler for Second- and Third-Generation Sequencing
