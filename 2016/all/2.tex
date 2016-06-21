@@ -6,10 +6,66 @@
 
 
 \noindent \paragraph{Keywords:} 
+Metagenomics,
+Single Cell Genomics,
+Sequence Assembly,
+Microbial Dark Matter
 
 \noindent \paragraph{Abstract:} 
 
+Over 99\% of the microbial species observed in nature cannot be grown in pure culture,
+making it impossible to study them using classical genomic methods. Metagenomics
+and single cell genomics are two complimentary approaches to study the microbial dark
+matter.
 
+Metagenomics can obtain genome sequences from uncultivated microbes through
+direct sequencing of environmental DNA. Each genome’s metagenomic coverage is
+constant and depends only on its abundance. A complementary approach to
+sequencing DNA of a whole microbial community is single cell genomics. Prior to
+sequencing of a single cell, its DNA needs to be amplified. This usually is done by
+multiple displacement amplification (MDA), introducing a tremendous coverage bias.
+Poorly amplified regions result in extremely low sequencing coverage or physical
+sequencing gaps. These parts of the genome cannot be reconstructed in the
+subsequent assembly step, and therefore genomic information is lost.
+
+Frequently, single amplified genomes (SAGs) and shotgun metagenomes are generated
+from the same environmental sample. We developed a fast, k-mer based recruitment
+method to sensitively identify metagenomic “proxy” reads representing the single cell of
+interest, using the raw single cell sequencing reads as recruitment seeds. By
+assembling metagenomic proxy reads instead of the single cell reads, we circumvent
+most challenges of single cell assembly, such as the aforementioned coverage bias and
+chimeric MDA products. In a final step, the original single cell reads are used for quality
+assessment of the proxy assembly.
+On real and simulated data we show that, with sufficient metagenomic coverage,
+assembling metagenomic proxy reads instead of single cell reads significantly improves
+assembly contiguity while maintaining the original accuracy. By applying our method
+iteratively, we span physical sequencing gaps and are able to recover genomic regions
+that otherwise would have been lost. However, careful contamination screening is
+needed.
+
+We developed kgrep, a new tool that naturally exploits the complementary nature of
+single cells and metagenomes to improve de novo assembly of single cell genomes.
 
 \noindent \paragraph{Authors:} 
+
+\paragraph{} 
+
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+
+{
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|l|l|l|l|l|l|}
+\hline
+\textbf{first name} & \textbf{last name} & \textbf{email}                    & \textbf{country} & \textbf{organization}             & \textbf{Web page} & \textbf{corresponding?} \\ \hline
+Andreas             & Bremges            & abremges@cebitec.uni-bielefeld.de & Germany          & Bielefeld University              &                   & $\checkmark$                       \\ \hline
+Jessica             & Jarett             & jkjarett@lbl.gov                  & United States    & DOE Joint Genome Institute        &                   &                         \\ \hline
+Tanja               & Woyke              & twoyke@lbl.gov                    & United States    & DOE Joint Genome Institute        &                   &                         \\ \hline
+Alexander           & Sczyrba            & asczyrba@cebitec.uni-bielefeld.de & Germany          & asczyrba@cebitec.uni-bielefeld.de &                   & $\checkmark$                       \\ \hline
+\end{tabular}%
+}
+}
+
+
 
