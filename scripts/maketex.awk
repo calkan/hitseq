@@ -4,4 +4,5 @@
 	print "\\noindent \\paragraph{Keywords:} \n";
 	print "\\noindent \\paragraph{Abstract:} \n\n\n";
 	print "\\noindent \\paragraph{Authors:} \n";
+	print "\\noindent \\paragraph{} \n";
 }
