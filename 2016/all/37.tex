@@ -5,11 +5,40 @@
 \normalsize 
 
 
-\noindent \paragraph{Keywords:} 
+\noindent \paragraph{Keywords:} Next-generation sequencing, Genotyping, Structural variant, Duplication, Inversion
 
 \noindent \paragraph{Abstract:} 
 
+Next Generation Sequencing (NGS) has enabled studying structural genomic variants (SVs)
+such as duplications and inversions in large cohorts. SVs have been shown to play important roles in
+multiple diseases, including cancer. As costs for NGS continue to decline and variant databases become
+ever more complete, the relevance of genotyping also SVs from NGS data increases steadily, which is in
+stark contrast to the lack of tools to do so.
 
+We introduce a novel statistical approach, called DIGTYPER (Duplication and Inversion
+GenoTYPER), which computes genotype likelihoods for a given inversion or duplication and reports
+the maximum likelihood genotype. In contrast to purely coverage-based approaches, DIGTYPER uses
+breakpoint-spanning read pairs as well as split alignments for genotyping, enabling typing also of small
+events. We tested our approach on simulated and on real data and compared the genotype predictions to
+those made by DELLY, which discovers SVs and computes genotypes. DIGTYPER compares favorable
+especially for duplications (of all lengths) and for shorter inversions (up to 300 bp). In contrast to DELLY,
+our approach can genotype SVs from data bases without having to rediscover them.
+
+Availability: \url{https://bitbucket.org/jana_ebler/digtyper.git}
 
 \noindent \paragraph{Authors:} 
 
+\noindent \paragraph{} 
+
+{
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
+\textbf{first name} & \textbf{last name} & \textbf{email}             & \textbf{country} & \textbf{organization}                                                                                   & \textbf{corresponding?} \\ \hline
+Jana                & Ebler              &                            & Germany          & Saarland University                                                                                     &                         \\ \hline
+Alexander           & Schönhuth          &                            & The Netherlands  & Centrum Wiskunde \& Informatica                                                                         &                         \\ \hline
+Tobias              & Marschall          & t.marschall@mpi-inf.mpg.de & Germany          & \begin{tabular}[c]{@{}l@{}}Saarland University and \\ Max Planck Institute for Informatics\end{tabular} & $\checkmark$                        \\ \hline
+\end{tabular}
+}
+}

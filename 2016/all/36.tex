@@ -6,10 +6,37 @@
 
 
 \noindent \paragraph{Keywords:} 
+Data analysis, Gene expression, Next-generation sequencing
 
 \noindent \paragraph{Abstract:} 
 
+Several approaches exist that deal with GC content and gene length dependent biases
+in RNA-seq measurements of transcript abundances. However, when computing correction factors,
+existing approaches do not consider the potential interdependence and interaction of both effects.
+Additionally, they do not deal satisfactorily with genes that have partially or entirely zero counts.
+Thirdly, the biases may affect a large fraction of genes such that the assumed global normalization
+schemes are invalid.
 
+We present a novel method for library bias correction (LBC) with a 2D function that simultaneously depends on GC content and gene length. Our approach is unique by modeling not the 
+absolute biases but the sample-specific deviations from the data-set wide bias. The computed correction
+factors are precise even in the case of partial zero counts. The presented method is useful for correcting 
+data sets with subsets of deviating samples as well as for the joined analysis of different data
+sets generated with different biases.
+
+     
 
 \noindent \paragraph{Authors:} 
+\paragraph{}
 
+{
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
+\textbf{first name} & \textbf{last name} & \textbf{email}              & \textbf{country} & \textbf{organization} & \textbf{corresponding?} \\ \hline
+Hubert              & Rehrauer           & hubert.rehrauer@fgcz.uzh.ch & Switzerland      & ETH Zurich            & $\checkmark$           \\ \hline
+Slavica             & Dimitrieva         &                             & Switzerland      & ETH Zurich            &                         \\ \hline
+Ralph               & Schlapbach         &                             & Switzerland      & ETH Zurich            &                         \\ \hline
+\end{tabular}
+}
+}
