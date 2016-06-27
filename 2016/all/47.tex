@@ -5,11 +5,45 @@
 \normalsize 
 
 
-\noindent \paragraph{Keywords:} 
+\noindent \paragraph{Keywords:} Algorithms, Bioinformatics, Signal processing
 
 \noindent \paragraph{Abstract:} 
+Single-cell RNA-sequencing (scRNA-seq) is a promising technology widely used to
+recapitulate gene expression trends through developmental progression of heterogeneous biological
+tissue. Although several methods have sought to estimate pseudo-temporal gene expression trends, a
+number of technical limitations presented by scRNA-seq remain, including high expression variability
+and drop-out measurements, which complicate accurate trend estimation. Consensus Representation
+Estimation of Lineage Expression (CREoLE) is an efficient and robust algorithm for automatically detecting
+an underlying branching lineage structure and estimating smooth developmental trends of gene expression
+by consensus without the need for model fitting or data filtering.
 
+ Applied to synthetic data, CREoLE recapitulates underlying gene expression for each gene and
+across each lineage with an average Pearson correlation coefficients of 0.983 $\pm$ 0.009. The impact of
+simulated technical noise, drop-out measurements, and cell count reduction are evaluated. Our analysis
+suggests that Creole is robust to additive noise and smaller initial cell populations (as low as 25\%
+initial population). CREoLE correlates with synthetic expression trends with a mean Pearson’s correlation
+coefficient above 0.9 in all cases. Applied to real data, CREoLE accurately identifies lineage structure and
+computes high-resolution consensus trends that align closely with published findings.
+
+Availability: CREoLE is free and open-source software available from \url{https://github.com/schaugf/creole}
 
 
 \noindent \paragraph{Authors:} 
+
+\noindent \paragraph{} 
+
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+{
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
+\textbf{first name} & \textbf{last name} & \textbf{email} & \textbf{country} & \textbf{organization}                & \textbf{corresponding?} \\ \hline
+Geoffrey F.         & Schau              & schau@ohsu.edu & United States    & Oregon Health and Science University &  $\checkmark$                       \\ \hline
+Shannon             & McWeeney           &                & United States    & Oregon Health and Science University &                         \\ \hline
+Andrew              & Adey               & adey@ohsu.edu  & United States    & Oregon Health and Science University &  $\checkmark$                       \\ \hline
+\end{tabular}%
+}
+}
 

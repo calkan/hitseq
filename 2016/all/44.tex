@@ -5,11 +5,56 @@
 \normalsize 
 
 
-\noindent \paragraph{Keywords:} 
+\noindent \paragraph{Keywords:} Single nuclotide variants, Tumour clones, Mutation detection,
+Mutation classification, Cancer evolution
 
 \noindent \paragraph{Abstract:} 
 
 
+Accurate detection and classification of somatic single
+nucleotide variants (SNVs) is important in defining the clonal
+composition of human cancers. Existing tools are prone to missing
+low prevalence mutations and methods for classification of mutations
+into clonal groups across the whole genome are underdeveloped.
+Increasing interest in deciphering clonal population dynamics over
+multiple samples in time or anatomic space from the same
+patient is resulting in whole genome sequence (WGS) data from
+phylogenetically related samples. We posited that injecting clonal
+structure information into the inference of mutations from multiple
+samples would improve mutation detection.
+
+ We developed MuClone: a novel statistical framework for
+simultaneous detection and classification of mutations across multiple
+samples of a patient from whole genome or exome sequencing
+data. The key advance lies in incorporating prior knowledge about
+the cellular prevalences of clones to improve the performance
+of detecting mutations, particularly low prevalence mutations. We
+evaluated MuClone through synthetic and real data from spatially
+sampled ovarian cancers. The results support the hypothesis that
+clonal information improves the sensitivity without compromising the
+specificity. In addition, MuClone classifies mutations across whole
+genomes of multiple samples into biologically meaningful groups that
+can provide additional phylogenetic insights and permits studying
+clonal dynamics from WGS data.
+
+Availability: MuClone is available from \url{http://compbio.bccrc.ca/}
 
 \noindent \paragraph{Authors:} 
 
+\noindent \paragraph{} 
+
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+{
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
+\textbf{first name} & \textbf{last name} & \textbf{email} & \textbf{country} & \textbf{organization}                                                                                                  & \textbf{corresponding?} \\ \hline
+Fatemeh             & Dorri              &                & Canada           & University of British Columbia                                                                                         &                         \\ \hline
+Sean                & Jewell             &                & United States    & University of Washington                                                                                               &                         \\ \hline
+Alexandre           & Bouchard-Côtè      &                & Canada           & University of British Columbia                                                                                         &                         \\ \hline
+Sohrab P.           & Shah               & sshah@bccrc.ca & Canada           & \begin{tabular}[c]{@{}l@{}}University of British Columbia\\ \& British Columbia Cancer \\ Research Center\end{tabular} &     $\checkmark$                    \\ \hline
+\end{tabular}%
+}
+}

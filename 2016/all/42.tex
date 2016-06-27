@@ -5,11 +5,49 @@
 \normalsize 
 
 
-\noindent \paragraph{Keywords:} 
+\noindent \paragraph{Keywords:} RNA-seq, alignment, transcriptome profiling
 
 \noindent \paragraph{Abstract:} 
 
 
+Genomic variants in both coding and non-coding sequences can have unexpected and
+functionally important effects on the splicing of gene transcripts. These events, can be measured by
+RNA sequencing (RNA-seq), but require the accurate alignment of reads across exon splice junctions.
+Existing alignment algorithms that utilize a standard reference genome as a template may have difficulty in
+mapping those reads that carry genomic variants. These problems can lead to bias in relative expression
+abundance of alternative alleles and the failure to detect splice variants created by splice site mutations.
+
+ To improve RNA-seq read alignments, we have developed a novel lightweight approach called
+iMapSplice (Individualized MapSplice) that enables personalized mRNA transcriptional profiling. The
+algorithm makes use of personal genomic information and performs an unbiased alignment towards
+genome indices carrying both reference and alternative bases. Importantly, this breaks the limit of
+dependency on reference genome splice site dinucleotide motifs and enables iMapSplice to discover
+personal splice junctions created through splice site mutations. We report comparative analyses by
+applying iMapSplice, MapSplice, and STAR on 4 simulated and 68 real human datasets. Besides general
+improvements in read alignment and splice junction discovery, iMapSplice greatly alleviates biases in
+allelic ratios across the genome and unravels many previously uncharacterized splice junctions created
+by mutations at splice sites, with minimal overhead in computation time and storage.
+
+Availability: iMapSplice is implemented as stand alone C++ code, and can be downloaded via URL:
+\url{https://github.com/xa6xa6/mps}
 
 \noindent \paragraph{Authors:} 
+
+\noindent \paragraph{} 
+
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+{
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
+\textbf{first name} & \textbf{last name} & \textbf{email}  & \textbf{country} & \textbf{organization}  & \textbf{corresponding?} \\ \hline
+Xinan               & Liu                &                 & United States    & University of Kentucky &                         \\ \hline
+James N.            & MacLeod            &                 & United States    & University of Kentucky &                         \\ \hline
+Jinze               & Liu                & liuj@cs.uky.edu & United States    & University of Kentucky &        $\checkmark$                 \\ \hline
+\end{tabular}%
+}
+}
+
 

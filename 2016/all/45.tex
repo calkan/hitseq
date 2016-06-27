@@ -5,11 +5,54 @@
 \normalsize 
 
 
-\noindent \paragraph{Keywords:} 
+\noindent \paragraph{Keywords:} Optical Maps, Alignment, Rmap, Restriction Map
 
 \noindent \paragraph{Abstract:} 
 
+An optical map is an ordered genome-wide high-resolution restriction map that indicates the positions of one or
+more short nucleotide sequences. Since optical maps are derived
+independently of short sequence reads, they are used in {\it de novo}
+genome assembly for validating a draft genome (Nature 2013),
+finding structural variation (Nature Methods 2015), and detecting
+mis-assembled regions within draft genomes (ISMB 2015). Single
+molecule maps, referred to as {\it Rmaps}, is the raw optical mapping
+data used to construct the genome-wide optical maps which are
+used for aiding in genome assembly. Currently, there exists very few
+computational methods to find alignments between the Rmaps - a
+task that is the first step in assembling the Rmap data into a genome-wide
+ optical maps. and is challenging due to various Rmap specific
+errors and their frequency.
 
+ We present {\sc doppelganger}, the first index-based, fully
+error-tolerant alignment method for optical mapping data. All
+prior alignment methods use dynamic programming, which is
+computationally expensive, or have limited error tolerance. We
+demonstrate a 20x speedup on the plum genome and demonstrate
+on the Ecoli genome the validity of our alignments. Thus,
+{\sc doppelganger} is the only non-proprietary method that is capable of
+performing pairwise Rmap alignment for large eukaryote organisms
+in reasonable time. Lastly, we conclude with other applications of
+{\sc doppelganger}, such as the alignment of long reads with high error
+rate (e.g. PacBio reads) to a genome-wide optical map.
+
+Availability: The {\sc doppelganger} alignment method is available for
+download at \url{https://github.com/mmuggli/doppelganger.}
 
 \noindent \paragraph{Authors:} 
 
+\noindent \paragraph{} 
+
+% Please add the following required packages to your document preamble:
+% \usepackage{graphicx}
+{
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|l|l|l|l|l|}
+\hline
+\textbf{first name} & \textbf{last name} & \textbf{email}                  & \textbf{country} & \textbf{organization}     & \textbf{corresponding?} \\ \hline
+Martin D.           & Muggli             & muggli@cs.colostate.edu         & United States    & Colorado State University & $\checkmark$                        \\ \hline
+Simon J.            & Puglisi            &                                 & Finland          & University of Helsinki    &                         \\ \hline
+Christina           & Boucher            & Christina.Boucher@colostate.edu & United States    & Colorado State University &  $\checkmark$                       \\ \hline
+\end{tabular}%
+}
+}
